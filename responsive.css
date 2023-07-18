@@ -13,6 +13,24 @@
         align-items: center;
         justify-content:center;
     }
+    .follow-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+        height: 46px;
+      
+    }
+    .fa-brands {
+        font-size:18px;
+        color: red;
+        margin: auto;
+        align-content: center;
+    }
+    .fa-tiktok, .fa-brands{
+        padding-right: 20px;
+    }
 }
 
 
@@ -31,7 +49,6 @@
     }
     .nav-items-container{
         width: 100%;
-        display: flex;
         justify-content: center;
         gap: 20px;
         align-items: center;
@@ -41,8 +58,24 @@
         height: 46px;   
     }
     .logo-container {
-        display: flex;
         align-items: center;
         justify-content:center;
+    }
+    .follow-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+        height: 46px;
+    }
+    .fa-brands {
+        font-size:18px;
+        color: red;
+        margin: auto;
+        align-content: center;
+    }
+    .fa-tiktok, .fa-brands{
+        padding-right: 20px;
     }
 }
