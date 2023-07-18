@@ -8,4 +8,42 @@
     .nav-container, .nav-items-container{
         flex-direction: column;
     }
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    
+    nav{
+        box-shadow: none;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    .nav-items-container button {
+        width: 200px;
+        height: 46px;   
+    }
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+}
 }

@@ -7,10 +7,12 @@ nav {
 }
 
 .nav-container {
+    border: 1px solid springgreen;
     max-width: 1400px;
     min-height: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background: #FFF;
     margin: 0 auto;
     /* 0=top+bottom, auto=left+right */
@@ -20,7 +22,7 @@ nav {
     display: flex;
     width: 50%;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 .logo-container img {
