@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
 nav {
@@ -55,7 +56,7 @@ nav {
     align-items: center;
 }
 
-.nav-items-container a {
+.nav-items-container a, button{
     color: #3C354F;
     text-align: center;
     font-family: Work Sans;
