@@ -146,7 +146,6 @@
     }
     
     .talking-angel-img {
-        /* width: 100%; */
 
         width: 100%;
         height: 100%;
@@ -176,6 +175,156 @@
         line-height: 30px;
         padding-top: 20px;
     }
+
+    .clickable-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 8px;
+        width: 120px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+.clickable-icon span {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.clickable-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.clickable-icon:hover {
+    border: 2px solid #FF42A5;
+    margin-left: 0;
+    padding-left: 0;
+    margin: 5px;
+    color: chartreuse;
+    border-radius: 20px;
+    background: transparent;
+
+
+}
+
+.clickable-icon-section {
+    max-width: 425px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.clickable-icons {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    row-gap: 3px;
+    column-gap: 3px;
+}
+footer {
+    /* width: 100vw;
+    height: 400px; */
+    background-color: #0B0223;
+}
+
+.footer-section {
+    max-width: 1400px;
+    min-height: 300px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.footer-logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px ;
+}
+
+
+.footer-logo img {
+    width: 86.041px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.footer-logo p {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.gamerz2 {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+footer {
+    width: 425px;
+    background-color: #0B0223;
+}
+.footer-section {
+    max-width: 425px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.footer-content1{
+    /* display: flex;
+    justify-content: center;
+    gap: 10px; */
+
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+.footer-content1 p{
+    font-size: 14;
+}
+
+.social-link {
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+.footer-content3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 150px;
+}
+
 
 }
 
@@ -289,5 +438,149 @@
         padding-top: 20px;
     }
 
+
+
+    .clickable-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+    
+    }
+    
+    .clickable-icon span {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .clickable-icon img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .clickable-icon:hover {
+        border: 2px solid #FF42A5;
+        margin-left: 0;
+        padding-left: 0;
+        margin: 5px;
+        color: chartreuse;
+        border-radius: 30px;
+        background: transparent;
+    
+    
+    }
+    
+    .clickable-icon-section {
+        max-width: 768px;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* margin-top: 100px;
+        min-height: 250px;
+     */
+    }
+    
+    .clickable-icons {
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    footer {
+        /* width: 100vw;
+        height: 400px; */
+        background-color: #0B0223;
+    }
+    
+    .footer-section {
+        border:2px solid springgreen;
+        max-width: 1400px;
+        min-height: 300px;
+        margin-left: 90px;
+        margin-right: 90px;
+        text-align: center;
+    }
+    .footer-logo{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px ;
+    }
+    
+    
+    .footer-logo img {
+        /* border: 2px solid violet; */
+        width: 86.041px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+    .footer-logo p {
+        /* border: 2px solid greenyellow; */
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .gamerz2 {
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* border: 2px solid pink; */
+    }
+    
+    
+    
+    
+    
+    
+    
+    .footer-content1 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        line-height: normal;
+    }
+    
+    .social-link {
+        color: white;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .footer-content3 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 50px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    
+    .copy-right {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        line-height: normal;
+    }
+    
    
 }
