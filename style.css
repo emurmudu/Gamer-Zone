@@ -385,7 +385,23 @@ button {
     
 }
 
-.btn-icon{
-    text-align: center;
+.clickable-icon-section{
+    max-width: 1400px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 100px;
+    min-height: 300px;
+    
 }
+
+.clickable-icons{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+   
+    
 /* clickable icon section styles ends here */
