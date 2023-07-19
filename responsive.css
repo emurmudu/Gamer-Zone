@@ -1,6 +1,10 @@
 
+/* Responsive styles for mobile device */
 
 @media screen and (max-width:425px) {
+    
+
+    /* nav section responsive starts here */
     
     nav{
         box-shadow: none;
@@ -37,16 +41,42 @@
     .fa-tiktok, .fa-brands{
         padding-right: 15px;
     }
+     /* nav section responsive ends here */
+
+     /* banner section responsive starts here */
+    .banner-section{
+        background-image: none;
+    }
+
+     .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20px;
+        
+     }
+     .banner-text{
+        width: 100%;
+     }
+     .banner-img{
+        width: 100%;
+     }
+
+
+     /* banner section responsive ends here */
 }
 
 
 
 
 
-
+/* Responsive styles for tablet */
 
 @media screen and (max-width:768px) {
-    
+
+     /* nav section responsive starts here */
+
     nav {
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     }
@@ -90,4 +120,7 @@
     .fa-tiktok, .fa-brands{
         padding-right: 20px;
     }
+     /* nav section responsive ends here */
+
+
 }
