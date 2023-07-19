@@ -47,8 +47,8 @@
 
 @media screen and (max-width:768px) {
     
-    nav{
-        box-shadow: none;
+    nav {
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     }
     .nav-container{
         flex-direction: column;
@@ -58,6 +58,7 @@
         justify-content: center;
         gap: 20px;
         align-items: center;
+        margin-bottom: 10px;
     }
     .nav-items-container button {
         width: 200px;

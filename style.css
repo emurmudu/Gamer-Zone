@@ -1,14 +1,20 @@
 * {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+body {}
+
+
+/* nav section styles starts header */
 
 nav {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-container {
-    border: 1px solid springgreen;
     max-width: 1400px;
     min-height: 100px;
     display: flex;
@@ -16,7 +22,9 @@ nav {
     justify-content: center;
     background: #FFF;
     margin: 0 auto;
-    /* 0=top+bottom, auto=left+right */
+    margin-left: 90px;
+    margin-right: 90px;
+
 }
 
 .logo-container {
@@ -28,20 +36,17 @@ nav {
 
 .logo-container img {
     width: 86.041px;
-    height: 40px;
-    /* flex-shrink: 0; */
-    /* object-fit: cover; */
+    height: 30px;
     margin-right: 20px;
 }
 
 .logo-container p {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     color: #0B0223;
 }
 
 .gamerz {
-    /* color: #FF42A5; */
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -56,7 +61,8 @@ nav {
     align-items: center;
 }
 
-.nav-items-container a, button{
+.nav-items-container a,
+button {
     color: #3C354F;
     text-align: center;
     font-family: Work Sans;
@@ -78,15 +84,129 @@ nav {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-.follow-section button{
+
+.follow-section button {
     border: none;
-    background:none;
+    background: none;
 }
 
 .fa-brands {
-    font-size:24px;
+    font-size: 24px;
     color: red;
 }
-.fa-tiktok{
+
+.fa-tiktok {
     color: black;
+    font-size: 24px;
+}
+
+/* nav section styles ends header */
+
+/* banner section styles starts here */
+.banner-section{
+    height: 100vh;
+    background-image: url("images/goat.bkgrnd.png"); 
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-blend-mode: overlay;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+
+.banner-container {
+    max-width: 1400px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 0px;
+    display: flex;
+    padding: 10px;
+    height: 100vh;
+    
+
+}
+
+.banner-text {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.banner-text h1 {
+    margin: 0;
+    color: #0B0223;
+    text-align: left;
+    font-size: 37px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text h2 {
+    margin: 0;
+    text-align: left;
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-content li {
+    list-style: none;
+    color: #534C64;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.banner-btn {
+    margin-top: 20px;
+}
+
+.banner-btn-pink {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 10px 25px;
+    border: none;
+    margin-right: 15px;
+    color: white;
+}
+
+.banner-btn-blue {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+
+.banner-img {
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    /* height: auto; */
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text-content {}
+
+/* banner section styles starts here */
+
+.banner-container {
+    
+
 }
