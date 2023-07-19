@@ -416,7 +416,7 @@ footer {
 }
 
 .footer-section {
-    min-height: 300px;
+    min-height: 100vh;
     margin-left: 90px;
     margin-right: 90px;
     text-align: center;
