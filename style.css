@@ -35,12 +35,14 @@ nav {
 }
 
 .logo-container img {
+    /* border: 2px solid violet; */
     width: 86.041px;
     height: 30px;
     margin-right: 20px;
 }
 
 .logo-container p {
+    /* border: 2px solid greenyellow; */
     font-size: 40px;
     font-weight: 700;
     color: #0B0223;
@@ -51,6 +53,7 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* border: 2px solid pink; */
 }
 
 .nav-items-container {
@@ -63,6 +66,7 @@ nav {
 
 .nav-items-container a,
 button {
+    /* border: 2px solid hotpink; */
     color: #3C354F;
     text-align: center;
     font-family: Work Sans;
@@ -74,6 +78,7 @@ button {
 }
 
 .follow-section {
+    /* border: 3px solid khaki; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,16 +91,19 @@ button {
 }
 
 .follow-section button {
+    /* border: 3px fuchsia; */
     border: none;
     background: none;
 }
 
 .fa-brands {
+    /* border: 2px solid fuchsia; */
     font-size: 24px;
     color: red;
 }
 
 .fa-tiktok {
+    /* border: 3px #4EC5F7; */
     color: black;
     font-size: 24px;
 }
@@ -103,14 +111,14 @@ button {
 /* nav section styles ends header */
 
 /* banner section styles starts here */
-.banner-section{
+.banner-section {
     height: 100vh;
-    background-image: url("images/goat.bkgrnd.png"); 
+    background: url("images/goat.bkgrnd.png");
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     background-blend-mode: overlay;
-    background-position:left;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
 
 }
 
@@ -120,23 +128,24 @@ button {
     margin-right: 90px;
     margin-top: 0px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     height: 100vh;
-    
+
 
 }
 
 .banner-text {
     width: 50%;
     text-align: left;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
+
+
+
 }
 
 .banner-text h1 {
-    margin: 0;
+    /* margin: 0; */
     color: #0B0223;
     text-align: left;
     font-size: 37px;
@@ -196,7 +205,8 @@ button {
     width: 50%;
     height: auto;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     height: auto;
     /* height: 100%; */
@@ -207,7 +217,32 @@ button {
 
 /* banner section styles starts here */
 
-.banner-container {
-    
+/* Online Games Funny Videos section starts here */
+
+.games-video-container {
+    border: 2px solid springgreen;
+    max-width: 1400px;
+    margin-left: 90px;
+    margin-right: 90px;
 
 }
+
+.popular-videos {
+
+    display: flex;
+    flex:1 0 50%;
+    gap: 10px;
+}
+
+.videos{
+    width: 300px;
+}
+
+.popular-videos img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+/* Online Games Funny Videos section ends here */
