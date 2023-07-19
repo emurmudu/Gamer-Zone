@@ -477,9 +477,7 @@ footer {
         max-width: 768px;
         margin-left: 10px;
         margin-right: 10px;
-        /* margin-top: 100px;
-        min-height: 250px;
-     */
+ 
     }
     
     .clickable-icons {
@@ -490,17 +488,14 @@ footer {
         column-gap: 30px;
     }
     footer {
-        /* width: 100vw;
-        height: 400px; */
+        width: 1400px;
+        height: 400px;
         background-color: #0B0223;
     }
     
     .footer-section {
         border:2px solid springgreen;
-        max-width: 1400px;
-        min-height: 300px;
-        margin-left: 90px;
-        margin-right: 90px;
+
         text-align: center;
     }
     .footer-logo{
