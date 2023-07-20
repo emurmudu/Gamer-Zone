@@ -247,3 +247,56 @@ footer {
     line-height: 30px;
     padding-top: 20px;
 }
+
+
+
+
+
+
+
+.clickable-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 8px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.clickable-icon span {
+font-size: 10px;
+font-weight: 300;
+}
+
+.clickable-icon img {
+width: 25px;
+height: 25px;
+}
+
+.clickable-icon:hover {
+border: 2px solid #FF42A5;
+margin-left: 0;
+padding-left: 0;
+margin: 5px;
+color: chartreuse;
+border-radius: 20px;
+background: transparent;
+
+
+}
+
+.clickable-icon-section {
+max-width: 425px;
+margin-left: 3px;
+margin-right: 3px;
+
+}
+
+.clickable-icons {
+display: flex;
+flex-wrap: wrap;
+place-content: center;
+row-gap: 3px;
+column-gap: 3px;
+}
