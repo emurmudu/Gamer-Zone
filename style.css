@@ -223,6 +223,7 @@ button {
 
 /* Online Games Funny Videos section starts here */
 
+
 .games-video-container {
     max-width: 1400px;
     margin-left: 90px;
@@ -345,6 +346,51 @@ button {
     line-height: 30px;
     padding-top: 20px;
 }
+
+
+.play-icon-container{
+    position: relative;
+    display: inline-block;
+    /* overflow: hidden; */
+}
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: url(./images/play-icon.png) no-repeat center;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+.watch-now{
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 8px 16px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.play-icon-container:hover .play-icon, .play-icon-container:hover .watch-now{
+    opacity: 1;
+}
+.play-icon-container img:hover{
+    opacity: 60%;
+}
+
+
+
+
 
 .play-instantly {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
